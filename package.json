@@ -1,0 +1,13 @@
+{
+  "name": "real-time-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A real-time multiplayer Tic-Tac-Toe game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^7.4.3"
+  },
+  "license": "MIT"
+}

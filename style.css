@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+.cell {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #e0e0e0;
+}
+
+.cell.x {
+  background-color: #008000;
+  color: #ffffff;
+}
+
+.cell.o {
+  background-color: #ff0000;
+  color: #ffffff;
+}
